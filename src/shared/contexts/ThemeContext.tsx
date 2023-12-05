@@ -35,7 +35,7 @@ export default function AppThemeProvider(props: IAppThemeProviderProps){
 
     return (        
         <ThemeContext.Provider value={{ themeName, toggleTheme}}>
-            <ThemeProvider theme={LightTheme}>
+            <ThemeProvider theme={theme}>
                 <Box width="100vw" height="100vh" bgcolor={theme.palette.background.default}>
                     {props.children}
                 </Box>              

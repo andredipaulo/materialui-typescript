@@ -30,10 +30,9 @@
             "error",
             "single"
         ],
-        "semi": [
-            "error",
-            "never"
-        ],
+        "semi": 
+            "off"
+        ,
         "react/react-in-jsx-scope" : "off"
 
     }
